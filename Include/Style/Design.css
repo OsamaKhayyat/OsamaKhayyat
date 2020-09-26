@@ -1,0 +1,363 @@
+    html {
+        scroll-behavior: smooth;
+    }
+    
+    .zero-padding {
+        padding: 0;
+    }
+    
+    * {
+        -webkit-user-select: none;
+        /* Chrome all / Safari all */
+        -moz-user-select: none;
+        /* Firefox all */
+        -ms-user-select: none;
+        /* IE 10+ */
+        user-select: none;
+    }
+    
+    body {
+        background-color: #FBFAFF;
+        padding: 0;
+    }
+    /* Head */
+    .logoImage{
+        text-align: center;
+    }    
+    .roundBoarderHeader {
+        background-color: #333333;
+        height: 600px;
+        border-bottom-left-radius: 83px;
+    }
+    
+    .headerList {
+        font-family: 'Agency FB', arial;
+        color: white;
+        font-size: 25px;
+        text-align: center;
+        padding-top: 5%;
+        padding-bottom: 3%;
+        padding-left: 1%;
+        padding-right: 1%;
+    }
+    
+    .active {
+        background-color: rgba(0, 113, 188, 40%);
+    }
+    
+    .headerList:hover {
+        background-color: rgba(0, 113, 188, 40%);
+        cursor: pointer;
+    }
+    
+    .HeaderBigTitel {
+        color: white;
+        font-size: 50px;
+        font-family: 'Rubik', sans-serif;
+
+    }
+    
+    .HeaderSmallText {
+        color: white;
+        font-size: 20px;
+    }
+    /* Head */
+    /* Our Service */
+    
+    .OurService {
+        margin-top: 80px;
+        
+    }
+    
+    .OurServicesTitel {
+        color: #333333;
+        font-size: 50px;
+        text-align: center;
+        font-family: 'Rubik', sans-serif;
+    }
+    
+    .ServicesBox {
+        height: 150px;
+        background-color: #FBFAFF;
+        border: #E5E5ED 0.02px solid;
+    }
+    /* Mdiam */
+    @media screen and (min-width: 768px) { 
+        .ServicesBox{
+            height: 300px;
+        }
+    }
+    /* Large */
+    @media screen and (min-width: 992px)  {
+        .ServicesBox{
+            height: 320px;
+        }
+    } 
+    
+    .ServicesBox:hover {
+        background-color: white;
+    }
+    
+    .ServicesBoxTitel {
+        font-family: 'Rubik', sans-serif;
+        font-size: 17px;
+
+    }
+    
+    .ServicesBoxParagraph {}
+    /* Our Service */
+    /* Testimonials */
+    
+    .Testimonials {
+        margin-top: 100px;
+        background-color: #333333;
+        height: 500px;
+    }
+    
+    .TestimonialsHeader {
+        font-family: 'Rubik', sans-serif;
+        text-align: center;
+        color: white;
+        font-size: 40px;
+    }
+    
+    .TestimonialsArrow {
+        display: inline-block;
+        color: white;
+        text-align: left;
+        position: relative;
+        height: 300px;
+    }
+    
+    .TestimonialsArrowRight {
+        display: inline-block;
+        color: white;
+        text-align: center;
+        position: relative;
+        height: 300px;
+    }
+    
+    .TestimonialsArrowIcon {
+        margin: 0;
+        position: absolute;
+        top: 50%;
+        -ms-transform: translateY(-50%);
+        transform: translateY(-50%);
+    }
+    
+    .TestimonialsBox {
+        background-color: white;
+        height: 300px;
+        padding: 2.2%;
+    }
+    
+    .Testimonialsquoterigh {
+        text-align: right;
+        color: #001653;
+    }
+    
+    .Testimonialsquoteleft {
+        text-align: left;
+        color: #001653;
+    }
+    
+    .TestimoniaMainText {
+        font-family: 'Rubik', sans-serif;
+        height: 65x;
+        text-align: center;
+    }
+    
+    .TestimonialsText {
+        text-align: center;
+        color: #001653;
+        font-size: 12px;
+    }
+    /* Testimonials */
+    /* SocialMedia */
+    
+    .SocialMediaSection {
+        margin-top: 50px;
+    }
+    
+    .SocialMediaImage {
+        margin-top: 100px;
+    }
+    
+    .SocialMediaMainTitel {
+        font-family: 'Rubik', sans-serif;
+        color: #333333;
+        font-size: 30px;
+        padding-bottom: 0px;
+    }
+    
+    .socialMediaSupcatugaryTextPart {
+        padding-left: 6%;
+    }
+    
+    .socialMediaSupcatugaryTitel {
+        font-family: 'Rubik', sans-serif;
+        color: #333333;
+        font-size: 15px;
+    }
+    
+    .socialMediaSupcatugaryText {
+        padding-left: 0.6%;
+    }
+    /* SocialMedia */
+
+    /* Creative Content */
+    .creativecontentTitel {
+        font-family: 'Rubik', sans-serif;
+        color: #333333;
+        font-size: 30px;  
+    }
+    .Creative_Content_Text_DIV{
+        height: 80px;
+        position: relative;;
+    }
+    .Creative_Content_Text{
+        font-family: 'Rubik', sans-serif;
+        margin: 0;
+        position: absolute;
+        top: 50%;
+        -ms-transform: translateY(-50%);
+        transform: translateY(-50%);
+    }
+
+
+    /* Creative Content */
+    /* Ads */
+    .googleAds{
+        margin-top:150px;
+    }
+    .FeatureText{
+        font-family: 'Rubik', sans-serif;
+    }
+    /* ADS */
+
+    /* brandingSection */
+    .brandingSection{
+        margin-top: 100px;
+    }
+
+    .BrandingText{
+        margin-top:200px;
+    }
+    /* Small */
+    @media  (max-width: 767px)  {
+        .BrandingText{
+            margin-top:50px;
+        }   
+             
+    }
+    /* Mdiam */
+    @media screen and (min-width: 768px) { 
+   
+        .BrandingText{
+            margin-top:50px;
+        }
+    }
+    /* Large */
+    @media screen and (min-width: 992px)  {
+ 
+        .BrandingText{
+            margin-top:200px;
+        }
+    } 
+    
+    .BrandingTitel{
+        font-family: 'Rubik', sans-serif;
+        font-size: 30px;
+    }
+    .BrandingTextSec{
+        font-family: 'Rubik', sans-serif;
+        font-size: 15px;
+    }
+
+    /* brandingSection */
+    
+    /* CustomerExperien */
+    .CustomerExperien{
+        margin-top: 150px;
+    }
+    .CustomerExperienceTitel{
+        font-family: 'Rubik', sans-serif;
+        font-size: 30px;
+    }
+    .CustomerExperienceSecion{
+        font-family: 'Rubik', sans-serif;
+        font-size: 15px;
+    }
+    /* CustomerExperien */
+
+
+    /* ClientWhoLoveus */
+    .ClientWhoLoveus{
+        margin-top: 150px;
+
+    }
+    .ClientWhoLoveusTitel{
+        text-align: center;
+        font-family: 'Rubik', sans-serif;
+        font-size: 30px;
+    }
+    .helper {
+        display: inline-block;
+        height: 100%;
+        vertical-align: middle;
+    }
+    
+    .logoSlider {
+        vertical-align: middle;
+    }
+
+    /* ClientWhoLoveus */
+    
+    /* Footer */
+    .footer{
+        background-color: #333333;
+        height: 400px;
+    }
+    .footerImageContainer{
+        display: inline-block;
+        color: white;
+        position: relative;
+        height: 380px;
+    }
+    .footerImage{
+        margin: 0;
+        position: absolute;
+        top: 50%;
+        -ms-transform: translateY(-50%);
+        transform: translateY(-50%);
+    }
+    .Form input {
+        margin-bottom: 8px;
+        padding-left: 10px;
+        border-radius: 3px;
+        padding: 20px;
+        border: none;
+        margin-top: 10px;
+    }
+    
+    .Form textarea {
+        margin-bottom: 8px;
+        padding-left: 10px;
+        border-radius: 3px;
+        border: none;
+        margin-top: 10px;
+        padding: 20px;
+        resize: none;
+    }
+    .FotterPlace{
+        color: white;
+        font-family: 'Rubik', sans-serif;
+        font-size: 15px;
+        margin-top: 60px;
+    }
+    .StayConnect{
+        color: white;
+        font-family: 'Rubik', sans-serif;
+        font-size: 20px;
+    }
+    /* Footer */
