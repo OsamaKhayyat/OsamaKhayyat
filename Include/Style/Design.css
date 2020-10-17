@@ -161,7 +161,11 @@
 
     }
     
-    .ServicesBoxParagraph {}
+    .ServicesBoxParagraph {
+        font-family: "Sharp";
+        font-weight: 100;
+
+    }
         /* small */
         @media  (max-width: 767px)  {
             .ServicesBoxParagraphlong{
@@ -277,12 +281,29 @@
         font-size: 30px;
         padding-bottom: 0px;
     }
+
         /* small */
         @media  (max-width: 767px)  {
             .SocialMediaMainTitel{
                 font-size: 20px;
             }           
         }
+
+        .SocialMediaMainTitelm {
+            /* font-family: 'Rubik', sans-serif; */
+            font-family: "Sharp bold";
+            font-weight: 100;
+            color: #333333;
+            font-size: 25px;
+            padding-bottom: 0px;
+        }
+    
+            /* small */
+            @media  (max-width: 767px)  {
+                .SocialMediaMainTitelm{
+                    font-size: 20px;
+                }           
+            }
     .socialMediaSupcatugaryTextPart {
         padding-left: 6%;
     }
@@ -303,7 +324,7 @@
     /* Creative Content */
     .creativecontentTitel {
         /* font-family: 'Rubik', sans-serif; */
-        font-family: "Sharp";
+        font-family: "Sharp bold";
         font-weight: 100;
         color: #333333;
         font-size: 30px;  
@@ -326,9 +347,6 @@
 
     /* Creative Content */
     /* Ads */
-    .googleAds{
-        margin-top:70px;
-    }
     .FeatureText{
         /* font-family: 'Rubik', sans-serif; */
         font-family: "Sharp bold";
@@ -413,14 +431,32 @@
         font-size: 30px;
     }
     .helper {
-        display: inline-block;
-        height: 100%;
-        vertical-align: middle;
-    }
-    
-    .logoSlider {
-        vertical-align: middle;
+        width: 530px;
+        height: 530px;
+        background-color: silver;
+        text-align: center;
         
+    }
+
+    .logoSlider {
+        /* vertical-align: middle;
+        position:absolute; */
+        top:50%;
+        left:50%;
+        margin-top:-25px;
+        margin-left:-25px;
+        
+    }
+    .logoSlider:after {
+        display: inline-block;
+        vertical-align: middle;
+        content: "";
+        height: inherit;
+    }
+    .image-container{
+        background-image: url("../../image/logos5.png") center;
+        height: 200px;
+        width: 200px;
     }
 
     /* ClientWhoLoveus */
