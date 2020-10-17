@@ -4,8 +4,7 @@ var vedio = 0;
 var vedioLogo = document.getElementById("vedioslider");
 // Vedio
 var Vedio = [
-    'https://www.youtube.com/embed/cdW92Tsb-cQ',
-    'https://www.youtube.com/embed/gABuAlA_MU4',
+    
 ];
 
 function VedioNext() {
