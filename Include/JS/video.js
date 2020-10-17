@@ -4,8 +4,8 @@ var vedio = 0;
 var vedioLogo = document.getElementById("vedioslider");
 // Vedio
 var Vedio = [
-    'https://player.vimeo.com/video/469174861',
-    'https://player.vimeo.com/video/469183308',
+    'https://www.youtube.com/embed/cdW92Tsb-cQ',
+    'https://www.youtube.com/embed/gABuAlA_MU4',
 ];
 
 function VedioNext() {
