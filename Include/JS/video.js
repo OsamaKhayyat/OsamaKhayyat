@@ -17,7 +17,6 @@ function VedioNext() {
     }else{
         vedio = 0;
         changeVedio(vedio);
-        alert(vedio);
     }
 }
 function VedioPrev() {
