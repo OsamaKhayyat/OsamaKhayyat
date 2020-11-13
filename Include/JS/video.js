@@ -14,6 +14,8 @@ function VedioNext() {
     if (Vedio.length - 1 > vedio) {
         vedio++;
         changeVedio(vedio);
+    }else{
+        vedio = 0;
     }
 }
 function VedioPrev() {
