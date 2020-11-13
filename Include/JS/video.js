@@ -17,6 +17,7 @@ function VedioNext() {
     }else{
         vedio = 0;
         changeVedio(vedio);
+        consol.print(vedio);
     }
 }
 function VedioPrev() {
