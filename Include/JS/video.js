@@ -16,6 +16,7 @@ function VedioNext() {
         changeVedio(vedio);
     }else{
         vedio = 0;
+        changeVedio(vedio);
     }
 }
 function VedioPrev() {
