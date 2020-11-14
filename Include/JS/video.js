@@ -6,7 +6,7 @@ var vedioLogo = document.getElementById("vedioslider");
 var Vedio = [
     "https://www.youtube.com/embed/Z8zAQhMgWZY",
     "https://www.youtube.com/embed/PYx29BZWDrs",
-    
+    "https://www.youtube.com/embed/DJnNedOK27A",
     
 ];
 
